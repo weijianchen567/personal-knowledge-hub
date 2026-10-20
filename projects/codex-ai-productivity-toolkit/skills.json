@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-20",
+  "skills": [
+    {
+      "id": "find-skills",
+      "source": "vercel-labs/skills",
+      "skill": "find-skills",
+      "tier": "core"
+    },
+    {
+      "id": "skill-creator",
+      "source": "anthropics/skills",
+      "skill": "skill-creator",
+      "tier": "core"
+    },
+    {
+      "id": "frontend-design",
+      "source": "anthropics/skills",
+      "skill": "frontend-design",
+      "tier": "core"
+    },
+    {
+      "id": "planning-with-files",
+      "source": "OthmanAdi/planning-with-files",
+      "skill": "planning-with-files",
+      "tier": "core"
+    },
+    {
+      "id": "agent-browser",
+      "source": "vercel-labs/agent-browser",
+      "skill": "agent-browser",
+      "tier": "optional"
+    },
+    {
+      "id": "baoyu-xhs-images",
+      "source": "JimLiu/baoyu-skills",
+      "skill": "baoyu-xhs-images",
+      "tier": "optional"
+    },
+    {
+      "id": "last30days",
+      "source": "mvanhorn/last30days-skill",
+      "skill": "last30days",
+      "tier": "optional"
+    }
+  ],
+  "plugin": {
+    "id": "Superpowers",
+    "source": "obra/superpowers",
+    "install": "Codex supported plugin mechanism only"
+  }
+}
